@@ -50,4 +50,18 @@ header h1 a{
     padding: 4px 10px 4px 100px;
 }
 
+.hero {
+    background-image: url("../images/subtitle-background.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subtitle {
+    background-color: aquamarine;
+    padding: 7px;
+    margin: 150px 75px 20px 0;
+    font-size: 22px;
+}
+
 
