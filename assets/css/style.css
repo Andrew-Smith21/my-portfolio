@@ -1,5 +1,7 @@
 :root {
     --header-color: rgb(44, 43, 43);
+    --section-font: #7393B3;
+    --main-background: white;
 }
 
 * {
@@ -32,7 +34,7 @@ header nav ul {
 
 header nav ul li a {
     padding: 12px 20px;
-    color: aquamarine;
+    color: var(--section-font);
     text-decoration: none;
     font-size: 25px;
 }
@@ -45,7 +47,7 @@ header h1 a{
 }
 
 .my-name {
-    background-color: aquamarine;
+    background-color: var(--section-font);
     margin-left: 0;
     padding: 4px 10px 4px 100px;
 }
@@ -58,10 +60,50 @@ header h1 a{
 }
 
 .subtitle {
-    background-color: aquamarine;
+    background-color: var(--section-font);
     padding: 7px;
     margin: 150px 75px 20px 0;
     font-size: 22px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-background);
+}
+
+.about-me p {
+    padding: 25px 80px 0 25px;
+}
+
+.section-title {
+    font-size: 38px;
+    padding: 0 12px 0 110px;
+    margin-top: 25px;
+    text-align: right;
+    color: var(--section-font);
+    border-right: 3px solid var(--section-font);
+}
+
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-background);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 80px 0 25px;
+}
+
+.contact-info p {
+    padding: 5px;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
 }
 
 
