@@ -1,3 +1,6 @@
+:root {
+    --header-color: rgb(44, 43, 43);
+}
 
 * {
     margin: 0;
@@ -10,10 +13,8 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: rgb(44, 43, 43);
-    padding: 15px;
-
-    
+    background-color: var(--header-color);
+    padding: 15px 15px 15px 0;
 }
 
 header nav {
@@ -30,10 +31,23 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px 20px;
+    padding: 12px 20px;
     color: aquamarine;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+header h1 a{
+
+    color: var(--header-color);
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.my-name {
+    background-color: aquamarine;
+    margin-left: 0;
+    padding: 4px 10px 4px 100px;
 }
 
 
