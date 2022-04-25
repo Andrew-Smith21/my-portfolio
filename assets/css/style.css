@@ -35,7 +35,7 @@ header nav ul {
 header nav ul li a {
     padding: 12px 20px;
     color: var(--section-font);
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 25px;
 }
 
@@ -73,12 +73,12 @@ header h1 a{
 }
 
 .about-me p {
-    padding: 25px 80px 0 25px;
+    padding: 25px 80px 0 40px;
 }
 
-.section-title {
+.section-title-about-me, .section-title-work, .section-title-contact-me {
     font-size: 38px;
-    padding: 0 12px 0 110px;
+    padding: 0 12px 10px 110px;
     margin-top: 25px;
     text-align: right;
     color: var(--section-font);
@@ -87,23 +87,56 @@ header h1 a{
 
 .contact-me {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     background-color: var(--main-background);
+    margin-bottom: 15px;
+}
+
+.section-title-contact-me{
+    padding-left: 52px;
 }
 
 .contact-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 25px 80px 0 25px;
+    width: 100%;
 }
 
 .contact-info p {
-    padding: 5px;
+    padding: 0 120px 0 0;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .work {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.work-example-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-title-work {
+    padding-left: 120px;
+}
+
+.work-example {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 5px solid var(--section-font);
+    margin: 35px;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.work-example-title {
+    background-color: var(--section-font);
+    margin: 60px 20px 20px 0;
 }
 
 
