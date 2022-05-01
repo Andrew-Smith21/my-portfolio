@@ -1,17 +1,19 @@
+/* Declaring color variables */
 :root {
     --header-color: rgb(44, 43, 43);
     --section-font: #7393B3;
     --main-background: white;
 }
 
+/* Establishing baseline styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Header Section */
 header {
-
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -19,8 +21,20 @@ header {
     padding: 15px 15px 15px 0;
 }
 
-header nav {
+header h1 a{
+    color: var(--header-color);
+    text-decoration: none;
+    font-size: 40px;
+}
 
+.my-name {
+    background-color: var(--section-font);
+    margin-left: 0;
+    padding: 4px 10px 4px 100px;
+}
+
+/* Navigation */
+header nav {
     margin: 7px 0;
 }
 
@@ -38,20 +52,9 @@ header nav ul li a {
     text-decoration: underline;
     font-size: 25px;
 }
+/* End of Navigation Styles */
 
-header h1 a{
-
-    color: var(--header-color);
-    text-decoration: none;
-    font-size: 40px;
-}
-
-.my-name {
-    background-color: var(--section-font);
-    margin-left: 0;
-    padding: 4px 10px 4px 100px;
-}
-
+/* Hero Section */
 .hero {
     background-image: url("../images/subtitle-background.jpg");
     background-size: cover;
@@ -76,7 +79,9 @@ header h1 a{
     margin: 190px 0 0 350px;
     font-size: 22px;
 }
+/* End of Hero Styles */
 
+/* About Me Section */
 .about-me {
     display: flex;
     justify-content: space-between;
@@ -87,6 +92,7 @@ header h1 a{
     padding: 25px 80px 0 40px;
     margin-bottom: 50px;
 }
+/* End of About Me Styles*/
 
 .section-title-about-me, .section-title-work, .section-title-contact-me {
     font-size: 38px;
@@ -97,31 +103,7 @@ header h1 a{
     border-right: 3px solid var(--section-font);
 }
 
-.contact-me {
-    display: flex;
-    justify-content: flex-start;
-    background-color: var(--main-background);
-    margin-bottom: 15px;
-}
-
-.section-title-contact-me{
-    padding-left: 52px;
-}
-
-.contact-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 80px 0 25px;
-    width: 100%;
-}
-
-.contact-info p {
-    padding: 0 120px 0 0;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
+/* Work Section */
 .work {
     display: flex;
     justify-content: flex-start;
@@ -144,7 +126,6 @@ header h1 a{
     flex-wrap: wrap;
     height: 200px;
     flex: 1 1 350px;
-    /*width: 48%;*/
     border: 5px solid var(--section-font);
     margin: 10px 3px 3px 10px;
     align-items: flex-end;
@@ -171,6 +152,7 @@ header h1 a{
     padding: 10px 20px 10px 10px;
     position: absolute;
     font-size: 20px;
+    color: black;
 }
 
 .work-example-title p {
@@ -212,3 +194,31 @@ header h1 a{
     text-decoration: none;
     color: black;
 }
+/* End of Work Styles */
+
+/* Contact Me Section */
+.contact-me {
+    display: flex;
+    justify-content: flex-start;
+    background-color: var(--main-background);
+    margin-bottom: 15px;
+}
+
+.section-title-contact-me{
+    padding-left: 52px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 80px 0 25px;
+    width: 100%;
+}
+
+.contact-info p {
+    padding: 0 120px 0 0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+/* End of Contact Me Styles */
