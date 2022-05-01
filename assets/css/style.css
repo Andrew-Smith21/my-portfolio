@@ -103,6 +103,7 @@ header h1 a{
     align-items: center;
     padding: 25px 80px 0 25px;
     width: 100%;
+    text-decoration: none;
 }
 
 .contact-info p {
@@ -131,13 +132,14 @@ header h1 a{
 .work-example {
     display: flex;
     flex-wrap: wrap;
+    height: 200px;
     flex: 1 1 350px;
     /*width: 48%;*/
     border: 5px solid var(--section-font);
     margin: 10px 3px 3px 10px;
-    align-items: center;
+    align-items: flex-end;
     line-height: 1.5;
-    /*background-image: url("../images/subtitle-background.jpg");*/
+    background-image: url("../images/subtitle-background.jpg");
     background-size: cover;
 }
 
@@ -145,6 +147,7 @@ header h1 a{
     background-color: var(--section-font);
     margin: 0px 20px 20px 0;
     padding: 3px;
+    
 }
 
 .first-work-example-title {
@@ -172,10 +175,10 @@ header h1 a{
 }
 
 #first-work-example {
-    flex: 1 1 800px;
-    height: 250px;
+    flex: 1 1 500px;
     /*background-image: url("../images/run-buddy-screenshot.jpg");*/
     opacity: 0.7;
+    height: max-content;
 }
 
 #run-buddy-screenshot {
