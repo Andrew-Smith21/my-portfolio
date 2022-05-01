@@ -222,3 +222,88 @@ header nav ul li a {
     font-size: 20px;
 }
 /* End of Contact Me Styles */
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+    .contact-info p {
+        padding-right: 40px;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+    .my-name {
+        padding-left: 30px;
+    }
+
+    .work-example-container {
+        margin-right: 90px;
+    }
+
+    .contact-info p {
+        padding-right: 28px;
+    }
+
+    .contact-info {
+        padding-right: 25px;
+    }
+}
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+    .my-name {
+        padding-left: 43px;
+        padding-right: 67px;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .headshot {
+        margin-top: 15px;
+    }
+
+    .subtitle {
+        margin: 0 0 10px 0;
+    }
+
+    .about-me {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about-me p {
+        padding-right: 40px;
+        text-align: center;
+    }
+
+    .section-title-about-me, .section-title-contact-me, .section-title-work {
+        border-right: none;
+        border-bottom: 3px solid var(--section-font);
+        text-align: center;
+        padding: 10px;
+    }
+
+    .work {
+        flex-direction: column;
+    }
+
+    .contact-me {
+        flex-direction: column;
+    }
+
+    .work-example-container {
+        margin-right: 30px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+
+}
