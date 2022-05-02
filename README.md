@@ -1,6 +1,6 @@
 # My Portfolio
 
-![Portfolio Screenshot](/assets/images/portfolio-screenshot.jpg?raw=true)
+![Portfolio Screenshot](./assets/images/portfolio-screenshot.jpg?raw=true)
 
 ## Assignment
 Build a portfolio webpage for potential employers. 
