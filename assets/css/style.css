@@ -15,7 +15,7 @@
 /* Header Section */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     background-color: var(--header-color);
     padding: 15px 15px 15px 0;
